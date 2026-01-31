@@ -12,38 +12,36 @@ helvetica%,
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage{xcolor}
-\usepackage[a4paper,top=0.8cm,left=0.9cm,right=1.1cm,bottom=1.8cm]{geometry}
+\usepackage[a4paper,top=0.8cm,left=1cm,right=1cm,bottom=1.3cm]{geometry}
 \usepackage[english]{babel}
 \usepackage{bibentry}
 \usepackage{url}
-\usepackage[pdfsubject={Curriculum vitae of Ilario Gelmetti.},pdfkeywords={curriculum, ilario gelmetti, chemist, organic chemist},pdftitle={Curriculum vitae of Ilario Gelmetti},pdfauthor={Ilario Gelmetti}
-,hidelinks
-,colorlinks=true,allcolors={blue!60!black}
-]{hyperref}
+
+\usepackage[pdfsubject={Curriculum vitae of Ilario Gelmetti.%AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+},pdfkeywords={curriculum, chemist, organic chemist},pdftitle={Curriculum vitae},pdfauthor={Ilario Gelmetti},%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+hidelinks,colorlinks=true,allcolors={blue!60!black}]{hyperref}
+
 \usepackage{array}
 
 \ecvNoHorRule
 \ecvLeftColumnWidth{4.4cm}
 
 \renewcommand{\ttdefault}{phv} % Uses Helvetica instead of fixed width font
-\def \spaziatura {14}
-\def \spaziaturadue {17}
+\def \spaziatura {6}
+\def \spaziaturadue {12}
 
-\ecvname{Gelmetti, Ilario}
-\ecvfootername{Ilario Gelmetti}
-\ecvaddress{Barcelona 08014, Spain}
+\ecvname{Gelmetti, Ilario}%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+\ecvfootername{Ilario Gelmetti}%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+\ecvaddress{Barcelona 08030, Spain}
 \ecvtelephone{}
 \ecvfax{}
-\ecvemail{\url{iochesonome@gmail.com}, \url{ilario@sindominio.net}}
+\ecvemail{\url{ilario@sindominio.net}}%\url{iochesonome@gmail.com}, %AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 \ecvnationality{Italian}
 \ecvdateofbirth{March 1988\vspace{10pt}, Verona, Italy}
 %\ecvgender{Male}
 %\ecvbeforepicture{\ecvspace{-4cm} \raggedleft }
 %\ecvpicture[width=3.5cm]{face2016-small.jpg}
 %\ecvafterpicture{\ecvspace{-2cm}}
-
-%\ecvfootnote{For more information go to \url{http://europass.cedefop.eu.int}\\
-%\textcopyright~European Communities, 2003.}
 
 \begin{document}
 \selectlanguage{english}
@@ -54,29 +52,29 @@ helvetica%,
 
 %\ecvitem{\large\textbf{Occupational~field}}{\large\textbf{Junior network engineer; Laboratory technician; Data scientist; Materials chemist}}
 
+\ecvitem[0pt]{Github account}{\url{https://github.com/ilario/}\vspace{\spaziaturadue pt}}
+
 \ecvsection[5pt]{Work experience}
 
-\ecvitem{May 2023 -- resent}{\textbf{R\&D Engineering Manager}. \textbf{\href{https://www.vitsolc.com/}{Vitsolc Technologies}}, Castelldefels, Barcelona, Spain.}
-\ecvitem{Project}{Technology validation, with design and creation of custom electrical characterization equipment, for outdoor characterization of semitransparent solar cells; project manager.\vspace{\spaziatura pt}}
+\ecvitem{May 2023 -- October 2025}{\textbf{R\&D Engineering Manager}. \href{https://www.vitsolc.com/}{Vitsolc Technologies}, Castelldefels, Barcelona, Spain.}
+\ecvitem{Project}{Technology validation; electronic engineering; 
+	%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA design and fabrication of custom equipment for automated outdoor characterization of solar cells (MPPT, current and voltage sweeps) and environmental parameters (temperature, humidity, wind speed, irradiance); 
+	coding in Python; %AAAAAAAAAAAAAAAAAAAAAAAinterfacing ARM single board computers with electronics (e.g. ADC, DAC via I2C, 1-wire, SPI and interrupts);
+	 Linux server management; projects writing and justification (Eureka Eurostars, EIC Transition, CDTI Neotec, Acció Startup Capital).\vspace{\spaziatura pt}}
 
-\ecvitem{July 2020 -- May 2023}{\textbf{Post-Doc researcher}. \textbf{Prof. J. R. Galán Mascarós group, Institute of Chemical Research of Catalonia} (ICIQ), Tarragona, Spain.}
-\ecvitem{Project}{Development of electrodes for electrocatalytic ethanol oxidation (\url{https://decadeproject.eu/}) and mid-scale water splitting; scale-up and automatization of synthesis, deposition and data analysis processes.}%\vspace{\spaziatura pt}}
-
-\ecvsection[5pt]{Non-academic grants}
-
-\ecvitem{June 2019 -- August 2019}{\textbf{Google Summer of Code} (Freifunk and LibreMesh).}
-\ecvitem{Project}{\href{https://summerofcode.withgoogle.com/projects/\#6369322811785216}{Load-correlated distributed bandwidth analysis for LibreMesh networks}}
-%\ecvitem{Supervisors}{Marcos Gutierrez, Jésica Giudice}
-\ecvitem{Acquired experience}{LibreMesh design and network architecture; OpenWrt administration, configuration and debugging; Lua coding; BASH scripting.}%\vspace{\spaziatura pt}}
+\ecvitem{July 2020 -- May 2023}{\textbf{Post-Doc researcher}. Prof. \textbf{J. R. Galán Mascarós} group, Institute of Chemical Research of Catalonia (\textbf{ICIQ}), Tarragona, Spain.}
+\ecvitem{Project}{Development of a spray coater, of a nitridation reactor and of large area electrodes for heterogeneous electrocatalysis for water splitting and for chemicals conversion (Horizon 2020 \emph{DECADE} \url{https://decadeproject.eu/}). Project management and justification. Design of experiments with machine learning.}%\vspace{\spaziatura pt}}
 
 \ecvsection[5pt]{Education}
 
 %\ecvitem{Dates}{January 2015 -- July 2019}
-\ecvitem{Jan. 2015 -- July 2019}{\textbf{Pre-Doc researcher}. \textbf{Prof. Emilio Palomares group, Institute of Chemical Research of Catalonia} (ICIQ) and Department of Electrical Electronic Engineering and Automation of Universitat Rovira i Virgili (DEEEA-URV), Tarragona, Spain. PhD evaluation excellent \textit{cum laude} and international mention.}  
+\ecvitem{Jan. 2015 -- July 2019}{\textbf{Pre-Doc researcher}. Prof. \textbf{Emilio Palomares} group, Institute of Chemical Research of Catalonia (\textbf{ICIQ}) and Department of Electrical Electronic Engineering and Automation of Universitat Rovira i Virgili (DEEEA-URV), Tarragona, Spain. PhD evaluation excellent \textit{cum laude} and international mention.}  
 \ecvitem{PhD Thesis Title}{\href{https://github.com/ilario/documents_in_latex-PhD_thesis/blob/master/gelmetti-phd_thesis-printer_quality.pdf}{Advanced Characterization and Modelling of Charge Transfer in Perovskite Solar Cells.}\nolinebreak}
 %\ecvitem{Supervisor}{Prof. Emilio José Palomares Gil}
+\ecvitem{Project}{Fabrication %AAAAAAAAAAAAAAAAAAAAAAAAAA(clean room, spin coating, glovebox, thermal evaporator) 
+	of perovskite solar cells. Advanced characterization using electrical and optical transients. Software development for automated data analysis (R) and for data acquisition (Python).}
 %\ecvitem{Subjects}{Synthesis of organic and inorganic semiconductors; fabrication of perovskite solar cells (clean room, glovebox, spin coating, and thermal evaporation); characterization of materials (FTIR, PL, TEM, XRD, NMR), thin films (UV-vis, TAS, TRPL, AFM, SEM, ESEM-EDX, optical microscopy, profilometer) and complete devices (EIS, TPV, solar simulator, oscilloscope); coding for numerical modeling, data acquisition, and data analysis.}
-\ecvitem{Internship}{3 months, Dr. Piers Barnes Group, Dept. of Physics, {\bf Imperial College London}, UK.\vspace{\spaziatura pt}}
+\ecvitem{Internship}{3 months, Prof. \textbf{Jenny Nelson} Group, Dept. of Physics, {\bf Imperial College London}, UK. Development of numerical modeling (Matlab) for simulation of impedance spectroscopy.\vspace{\spaziatura pt}}
 %\ecvitem{Name of organization %providing education and training}{}
 %\ecvitem{Level %in national or international classification
 %}{ISCED 8. Doctorate, 4 years.\vspace{\spaziatura pt}}
@@ -99,7 +97,7 @@ helvetica%,
 \ecvitem{Sept. 2010 -- Oct. 2013}{{\bf Master Degree in Organic Chemistry}. Evaluation 110/110 \textit{cum laude}. Dept. of Chemistry and Industrial Chemistry, \textbf{University of Pisa}, Italy.}
 \ecvitem{Master Thesis Title}{\href{https://etd.adm.unipi.it/t/etd-09232013-170716}{Synthesis and Characterization of Chiral Polythiophenes.}}
 %\ecvitem{Thesis Supervisor}{Dr. Silvia Destri; Prof. Lorenzo Di Bari}
-\ecvitem{Laboratory}{Institute for Macromolecular Studies, {\bf Consiglio Nazionale delle Ricerche, Milan}, Italy.\vspace{\spaziatura pt}}%\vspace{\spaziatura pt}}% (ISMAC-CNR)
+\ecvitem{Laboratory}{Institute for Macromolecular Studies, {\bf Consiglio Nazionale delle Ricerche, Milan}, Italy.\vspace{\spaziatura pt}}% (ISMAC-CNR)
 %\ecvitem{Principal courses subjects}{Organic synthesis, two-dimensional NMR spectroscopy, polymer chemistry\dots}
 %\ecvitem{Name of organization %providing education and training
 %}{\vspace{\spaziatura pt}}
@@ -146,73 +144,87 @@ helvetica%,
 %\ecvitem{Name and type of organization %providing education and training
 %}{Department of Chemical Sciences, University of Padua, Italy.\vspace{\spaziatura pt}}
 
+\ecvsection[5pt]{Volunteering}
+
+\ecvitem[5pt]{Creating Board Games}{Co-founder and \textbf{board game developer} of the No Board Games collective since 2014. Created the games \emph{Cast the First Stone} and \emph{The Fully Automated Board Game}).}
+
+\ecvitem[5pt]{Wireless Community Networks}{eigenNet (2009--2013); LibreMesh.org modular firmware for community networks (\textbf{developer, maintainer and community manager}, 2013--); NinuxVerona (founder, 2014--2015, \href{https://www.youtube.com/watch?v=llCQlT0cJuU}{presentation video}); 
+	setting up network for events \href{https://it.hackmeeting.org}{it.hackmeeting.org}, June 2017; \href{https://es.hackmeeting.org}{es.hackmeeting.org}, September 2019; \href{https://battlemesh.org/BattleMeshV15}{WirelessBattleMesh v15}, 2023); GSoC project manager with Freifunk (written 3 successful projects).}
+
+\ecvitem[5pt]{Hacklabs}{eigenLab Pisa (co-founder, 2009--2013); TGNU Tarragona hacklab (co-founder, 2016--2018); Hacklab Logout (2022-2025); Phonelab del Clot (2026--).}
+
+\ecvitem[5pt]{Other volunteering}{Operazione Mato Grosso (2004--2007), Manitese (2013).\vspace{\spaziatura pt}}
+
+\newpage
+
+\ecvsection[5pt]{Non-academic grants}
+
+\ecvitem{June 2019 -- August 2019}{\textbf{Google Summer of Code} (Freifunk and LibreMesh).}
+\ecvitem{Project}{\href{https://summerofcode.withgoogle.com/projects/\#6369322811785216}{Load-correlated distributed bandwidth analysis for LibreMesh networks}}
+%\ecvitem{Supervisors}{Marcos Gutierrez, Jésica Giudice}
+\ecvitem{Acquired experience}{Low level cabled and wireless networking; Lua coding; BASH scripting; git.\vspace{\spaziaturadue pt}}
+
+
 \ecvsection[5pt]{Awards}
 \ecvitem[5pt]{National Chem.\ Olympiads}{Fourth position in ranking of category C, Italian national selections, 2007.}
 	%Participated in the selection of the Italian team for International Chemistry Olympiads 2007.}·
 \ecvitem[5pt]{National Physics Olympiads}{Best experimental solution, Italian national selections, 2007.}% Participated in the selection of the Italian team for International Physics Olympiads.}
-\ecvitem[5pt]{National Math.\ Olympiads}{Honourable mention, Italian national selections, 2006.}
-
-\newpage
+\ecvitem[5pt]{National Math.\ Olympiads}{Honorable mention, Italian national selections, 2006.\vspace{\spaziaturadue pt}}
 
 \ecvsection[5pt]{Personal skills}
 
 \ecvmothertongue[5pt]{Italian}
-%\ecvitem{\large Other language(s)}{English, Spanish, Catalan. Interested in learning new languages.}
 \ecvlanguageheader{(*)}
-\ecvlanguage{English}{\ecvCOne}{\ecvCTwo}{\ecvCOne}{\ecvCOne}{\ecvCTwo}
-%\ecvlanguage{French}{\ecvAOne}{\ecvATwo}{\ecvAOne}{\ecvAOne}{\ecvAOne}
-\ecvlanguage{Spanish}{\ecvCTwo}{\ecvCOne}{\ecvCTwo}{\ecvCOne}{\ecvCOne}
+\ecvlanguage{English}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}
+\ecvlanguage{Spanish}{\ecvBTwo}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvBTwo}
 \ecvlastlanguage{Catalan}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}{\ecvCOne}
 \ecvlanguagefooter[10pt]{(*)}
 \ecvitem[0pt]{Language certificates}{Catalan language C1, issued by Universitat Rovira i Virgili, July 2020.
 	
-	English language C1, issued by Escuela Oficial de Idiomas de Tarragona, February 2022.\vspace{\spaziaturadue pt}}
+	English language C1, issued by Escuela Oficial de Idiomas de Tarragona, February 2022.
 
+Spanish language B2-C1, issued by SIELE, November 2025.\vspace{\spaziaturadue pt}}
 %\ecvitem[10pt]{\large Technical skills and competences}{Repairing mechanical and simple electrical failures, woodworking, antenna installer.}
-\ecvitem[5pt]{Computer skills}{Git version control; Debian and Arch Linux system administration; cabled and wireless networks setup and administration using OpenWrt; \LaTeX\ markup; LibreOffice Writer, Calc and Impress; GIMP and Inkscape drawing; prototyping with Arduino and electronics; assembling and repairing PCs and electronic hardware in general.\vspace{\spaziaturadue pt}}
 
-\ecvitem[5pt]{Coding skills}{BASH scripting (medium); coding in Python (medium, e.g. \href{https://github.com/ilario/PyPV}{PyPV data acquisition software} and \href{https://github.com/ilario/electrochemistry-data-processing-python}{data processing for electrochemistry data}), coding in R (advanced, e.g. \href{https://github.com/ilario/photophysics-data-processing-R}{data processing for photovoltaics}), coding in Matlab (medium, e.g. \href{https://github.com/barnesgroupICL/Driftfusion/tree/2018-EIS}{contributions to Driftfusion}), coding in Lua (medium, e.g. \href{https://github.com/libremesh/lime-packages/commits?author=ilario}{contributions to LibreMesh}).\vspace{\spaziaturadue pt}}
+\ecvitem[5pt]{Computer skills}{Linux system administration (more than 20 years experience using Debian and Arch Linux, x86 and ARM with DeviceTree); cabled and wireless networks setup and administration using OpenWrt; \LaTeX; LibreOffice Writer, Calc and Impress; GIMP and Inkscape drawing; prototyping with Arduino and Single Board Computers for electronics (I2C, SPI, 1-wire, interrupt communications); assembling and repairing PCs and electronic hardware in general; CAD of mechanical pieces using FreeCAD (Part and Part Design workbenches).}
+
+\ecvitem[5pt]{Coding skills}{Git version control; BASH scripting%AAAAAAAAAAAAAAAAAAAAAAAA (medium, e.g. \href{https://github.com/ilario/finddirdupes}{script for locating duplicate folders})
+	; advanced coding in Python%AAAAAAAAAAAAAAAAAAAAAAAAAAAAA(advanced\textsc{}, e.g. \href{https://github.com/ilario/PyPV}{PyPV data acquisition software}, \href{https://github.com/ilario/electrochemistry-data-processing-python}{data processing for electrochemistry data} and unpublished code from work done at Vitsolc Technologies)
+	; coding in R%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA(advanced, e.g. \href{https://github.com/ilario/photophysics-data-processing-R}{data processing for photovoltaics})
+	; coding in Matlab%AAAAAAAAAAAAAAAAAAAAAAAAAAA (medium, e.g. \href{https://github.com/barnesgroupICL/Driftfusion/tree/2018-EIS}{contributions to Driftfusion})
+	; coding in Lua%AAAAAAAAAAAAAAAAAAAAAA (medium, e.g. \href{https://github.com/libremesh/lime-packages/commits?author=ilario}{contributions to LibreMesh})
+	.}
 
 \ecvitem[5pt]{Driving license}{Driving license class B.\vspace{\spaziaturadue pt}}
 
-%\ecvitem[10pt]{Availability to travel}{Willing to expertise abroad and to travel.}
-\ecvitem[5pt]{Volunteering}{Operazione Mato Grosso (2004--2007), eigenLab Pisa and eigenNet wireless community network (2009--2013), Manitese (2013), NinuxVerona wireless community network (founder, 2014--2015, \href{https://www.youtube.com/watch?v=llCQlT0cJuU}{presentation video}), LibreMesh.org modular firmware for community networks (developer and community manager, 2013--; real network setup for events \href{https://it.hackmeeting.org}{it.hackmeeting.org}, June 2017; \href{https://es.hackmeeting.org}{es.hackmeeting.org}, September 2019; \href{https://battlemesh.org/BattleMeshV15}{WirelessBattleMesh v15}, 2023), TGNU Tarragona hacklab (co-founder, 2016--2018), No Board Games (game developer, 2014--), Logout hacklab (2022--\.).\vspace{\spaziaturadue pt}}
+%\ecvitem[15pt]{Hobbies and Interests}{Open source software and hardware, computer security, wireless community networks, activism, prototyping, electronics, problem solving, board games design, learning languages (currently modern Greek).\vspace{\spaziaturadue pt}}
 
-%\ecvitem[10pt]{Marital situation}{Unmarried.}
-\ecvitem[15pt]{Hobbies and Interests}{Open source software, computer security, wireless community networks, activism, prototyping, electronics, problem solving, board games design, learning languages.\vspace{\spaziaturadue pt}}
+%\ecvitem[0pt]{\large\textbf{Selected publications}}
+%{\textbf{Gelmetti, I.}; \textit{et al}.
+	%\textit{ACS Appl. Mater. Interfaces} \textbf{2017}, \textit{9 (26)}, 21599–21605.}
 
-\ecvitem[0pt]{\large\textbf{Selected publications}}
-%{\textbf{Gelmetti, I.}; 
-%		\textit{} \textbf{}, \textit{()}, –.}
-%\ecvitem[5pt]{}
-{\textbf{Gelmetti, I.}; \textit{et al}.
-%	Selective Organic Contacts for Methyl Ammonium Lead Iodide (MAPI) Perovskite Solar Cells: Influence of Layer Thickness on Carriers Extraction and Carriers Lifetime. 
-	\textit{ACS Appl. Mater. Interfaces} \textbf{2017}, \textit{9 (26)}, 21599–21605.}
+%\ecvitem[0pt]{}{Moia, D.; \textbf{Gelmetti, I.}; \textit{et al}. 
+	%\textit{Energy Environ. Sci.} \textbf{2019}, \textit{12 (4)}, 1296–1308.}
 
-\ecvitem[0pt]{}{Moia, D.; \textbf{Gelmetti, I.}; \textit{et al}. 
-%	Ionic-to-Electronic Current Amplification in Hybrid Perovskite Solar Cells: Ionically Gated Transistor-Interface Circuit Model Explains Hysteresis and Impedance of Mixed Conducting Devices. 
-	\textit{Energy Environ. Sci.} \textbf{2019}, \textit{12 (4)}, 1296–1308.}
+%\ecvitem[0pt]{}{\textbf{Gelmetti, I.}; Montcada, N.;  \textit{et al}. 
+	%\textit{Energy Environ. Sci.} \textbf{2019}, \textit{12 (4)}, 1309–1316.}
 
-\ecvitem[0pt]{}{\textbf{Gelmetti, I.}; Montcada, N.;  \textit{et al}. 
-%	Energy Alignment and Recombination in Perovskite Solar Cells: Weighted Influence on the Open Circuit Voltage. 
-	\textit{Energy Environ. Sci.} \textbf{2019}, \textit{12 (4)}, 1309–1316.}
+%\ecvitem[0pt]{}{Calado, P.; \textbf{Gelmetti, I.};  \textit{et al}. 
+	%\textit{J. Comput. Electron.} \textbf{2022}, 1–32.}
 
-\ecvitem[0pt]{}{Calado, P.; \textbf{Gelmetti, I.};  \textit{et al}. 
-	%	Driftfusion: an open source code for simulating ordered semiconductor devices with mixed ionic-electronic conducting materials in one dimension.
-	\textit{J. Comput. Electron.} \textbf{2022}, 1–32.}
-
-\ecvitem[0pt]{}{Moia, D.; \textbf{Gelmetti, I.};  \textit{et al}. 
-	%	Dynamics of Internal Electric Field Screening in Hybrid Perovskite Solar Cells Probed Using Electroabsorption.
-	\textit{Phys. Rev. Appl.} \textbf{2022}, \textit{18 (4)}, 044056.}
+%\ecvitem[0pt]{}{Moia, D.; \textbf{Gelmetti, I.};  \textit{et al}. 
+	%\textit{Phys. Rev. Appl.} \textbf{2022}, \textit{18 (4)}, 044056.}
 
 
-\ecvsection[5pt]{References}
-\ecvitem[5pt]{}{Prof. {\bf José Ramón Galán-Mascarós}, \textit{Group leader} at Institute of Chemical Research of Catalonia (ICIQ), Tarragona, Spain. \quad\url{jrgalan@iciq.es} \quad +34 977 920 200 (ext. 221)}
+\ecvsection[0pt]{References}%AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
-%\ecvitem{\large\textbf{References}}{Dr. \bf{Piers R. F. Barnes}}
-\ecvitem[5pt]{}{Dr. {\bf Piers R. F. Barnes}, \textit{Lecturer} at Dept. of Physics, Imperial College London (ICL), London, UK. \quad\url{piers.barnes@imperial.ac.uk} \quad +44 (0)20 7594 7609}
+\ecvitem[5pt]{}{Dr. {\bf Sergi Cuesta Arcos}, CTO at Vitsolc Technologies, Castelldefels, Spain. \quad\url{sergi.cuesta@vitsolc.com}}
 
-\ecvitem[5pt]{}{Prof. {\bf Emilio Palomares}, \textit{Director} of Institute of Chemical Research of Catalonia (ICIQ), Tarragona, Spain. \quad\url{epalomares@iciq.es} \quad +34 977 920 245}
+\ecvitem[5pt]{}{Prof. {\bf José Ramón Galán-Mascarós}, Group leader at Institute of Chemical Research of Catalonia, Tarragona, Spain. \quad\url{jrgalan@iciq.es} \quad +34 977 920 200}
+
+\ecvitem[5pt]{}{Prof. {\bf Piers R. F. Barnes}, Assistant professor at Dept. of Physics, Imperial College London, London, UK. \quad\url{piers.barnes@imperial.ac.uk} \quad +44 (0)20 7594 7609}
+
+\ecvitem[5pt]{}{Prof. {\bf Emilio Palomares}, Director of Institute of Chemical Research of Catalonia, Tarragona, Spain. \quad\url{epalomares@iciq.es} \quad +34 977 920 245}
 
 
 %\ecvitem[10pt]{}{Dr. \bf{Silvia Destri}}
